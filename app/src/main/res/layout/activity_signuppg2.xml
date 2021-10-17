@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Signuppg2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Confirm your details"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:textColor="#fefefa"
+                android:background="#4697e1"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="First Name:- "
+                android:textSize="25dp"
+                android:textColor="#4697e1"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/tvfname"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Last Name:- "
+                android:textSize="25dp"
+                android:textColor="#4697e1"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/tvlname"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gender:- "
+                android:textSize="25dp"
+                android:textColor="#4697e1"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/tvgender"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Birthdate:- "
+                android:textSize="25dp"
+                android:textColor="#4697e1"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/tvdate"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="E-mail:- "
+                android:textSize="25dp"
+                android:textColor="#4697e1"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/tvmail"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:textSize="30dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="#FF6666"
+                android:id="@+id/btnsub2"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

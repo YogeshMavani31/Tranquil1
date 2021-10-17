@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".page3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:text="Select the Symptoms you experience due to stress"
+        android:textColor="#0066FF"
+        android:textSize="40dp" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Headaches"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:background="#d4f4fa"
+        android:id="@+id/cbhead"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Depression"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:background="#d4f4fa"
+        android:id="@+id/cbdep"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Anxiety"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:background="#d4f4fa"
+        android:id="@+id/cbanxiety"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Fatigue"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:background="#d4f4fa"
+        android:id="@+id/cbfat"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Next"
+        android:textSize="20dp"
+        android:id="@+id/btnnxt"/>
+
+
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>
