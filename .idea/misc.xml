@@ -3,6 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Tranquil/app/src/main/res/drawable/custombg.xml" value="0.2" />
+        <entry key="..\:/Tranquil/app/src/main/res/layout/activity_book.xml" value="0.2265625" />
+        <entry key="..\:/Tranquil/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Tranquil/app/src/main/res/layout/activity_main_page1.xml" value="0.2421875" />
+        <entry key="..\:/Tranquil/app/src/main/res/layout/activity_music.xml" value="0.2265625" />
+        <entry key="..\:/Tranquil/app/src/main/res/layout/activity_optionpg.xml" value="0.2421875" />
+        <entry key="..\:/Tranquil/app/src/main/res/layout/activity_page2.xml" value="0.2421875" />
+        <entry key="..\:/Tranquil/app/src/main/res/layout/activity_page3.xml" value="0.2421875" />
+        <entry key="..\:/Tranquil/app/src/main/res/layout/activity_page4.xml" value="0.2421875" />
+        <entry key="..\:/Tranquil/app/src/main/res/layout/activity_page5.xml" value="0.2421875" />
+        <entry key="..\:/Tranquil/app/src/main/res/layout/activity_page6.xml" value="0.2421875" />
+        <entry key="..\:/Tranquil/app/src/main/res/layout/activity_page7.xml" value="0.2421875" />
+        <entry key="..\:/Tranquil/app/src/main/res/layout/activity_signuppg.xml" value="0.2421875" />
+        <entry key="..\:/Tranquil/app/src/main/res/layout/activity_signuppg2.xml" value="0.2421875" />
+        <entry key="..\:/Tranquil/app/src/main/res/layout/activity_signuppg3.xml" value="0.2421875" />
+        <entry key="..\:/Tranquil/app/src/main/res/layout/activity_video.xml" value="0.2265625" />
+        <entry key="..\:/Tranquil/app/src/main/res/layout/activity_waitingpg.xml" value="0.2421875" />
+        <entry key="..\:/Tranquil/app/src/main/res/layout/activity_yoga.xml" value="0.2265625" />
         <entry key="..\:/Users/Vijay/AndroidStudioProjects/Tranquil/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1685185185185185" />
         <entry key="..\:/Users/Vijay/AndroidStudioProjects/Tranquil/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1685185185185185" />
         <entry key="..\:/Users/Vijay/AndroidStudioProjects/Tranquil/app/src/main/res/layout/activity_main.xml" value="0.1" />

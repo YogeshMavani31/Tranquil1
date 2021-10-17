@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/custombg"
     tools:context=".page3">
 
     <ScrollView
@@ -24,7 +25,7 @@
         android:layout_marginLeft="20dp"
         android:gravity="center"
         android:text="Select the Symptoms you experience due to stress"
-        android:textColor="#0066FF"
+        android:textColor="#3F50BF"
         android:textSize="40dp" />
 
     <CheckBox
@@ -34,7 +35,8 @@
         android:text="Headaches"
         android:layout_marginTop="20dp"
         android:textSize="20dp"
-        android:background="#d4f4fa"
+        android:textColor="#ffffff"
+        android:background="#3F50BF"
         android:id="@+id/cbhead"/>
     <CheckBox
         android:layout_width="match_parent"
@@ -43,7 +45,8 @@
         android:text="Depression"
         android:layout_marginTop="20dp"
         android:textSize="20dp"
-        android:background="#d4f4fa"
+        android:textColor="#ffffff"
+        android:background="#3F50BF"
         android:id="@+id/cbdep"/>
     <CheckBox
         android:layout_width="match_parent"
@@ -52,7 +55,8 @@
         android:text="Anxiety"
         android:layout_marginTop="20dp"
         android:textSize="20dp"
-        android:background="#d4f4fa"
+        android:textColor="#ffffff"
+        android:background="#3F50BF"
         android:id="@+id/cbanxiety"/>
     <CheckBox
         android:layout_width="match_parent"
@@ -61,18 +65,19 @@
         android:text="Fatigue"
         android:layout_marginTop="20dp"
         android:textSize="20dp"
-        android:background="#d4f4fa"
+        android:textColor="#ffffff"
+        android:background="#3F50BF"
         android:id="@+id/cbfat"/>
-    <Button
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="20dp"
-        android:text="Next"
-        android:textSize="20dp"
-        android:id="@+id/btnnxt"/>
 
+            <Button
+                android:id="@+id/btnnxt"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Next"
+                android:textSize="20dp" />
 
-</LinearLayout>
+        </LinearLayout>
     </ScrollView>
 </LinearLayout>

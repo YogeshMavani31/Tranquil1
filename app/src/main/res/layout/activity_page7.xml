@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/custombg"
     tools:context=".page7">
 
     <TextView
@@ -16,14 +17,14 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:textSize="40dp"
-        android:textColor="#0066FF"/>
+        android:textColor="#3F50BF"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:text="Yes"
-        android:background="#a0e6ff"
+        android:background="#3F50BF"
         android:textSize="20dp"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
@@ -34,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="No"
-        android:background="#a0e6ff"
+        android:background="#3F50BF"
         android:textSize="24dp"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"

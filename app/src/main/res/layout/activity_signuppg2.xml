@@ -21,14 +21,14 @@
                 android:textSize="30dp"
                 android:gravity="center"
                 android:textColor="#fefefa"
-                android:background="#4697e1"
+                android:background="#3F50BF"
                 android:layout_marginTop="10dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="First Name:- "
                 android:textSize="25dp"
-                android:textColor="#4697e1"
+                android:textColor="#3F50BF"
                 android:layout_marginTop="25dp"
                 android:layout_marginLeft="15dp"
                 android:id="@+id/tvfname"/>
@@ -37,7 +37,7 @@
                 android:layout_height="wrap_content"
                 android:text="Last Name:- "
                 android:textSize="25dp"
-                android:textColor="#4697e1"
+                android:textColor="#3F50BF"
                 android:layout_marginTop="25dp"
                 android:layout_marginLeft="15dp"
                 android:id="@+id/tvlname"/>
@@ -46,7 +46,7 @@
                 android:layout_height="wrap_content"
                 android:text="Gender:- "
                 android:textSize="25dp"
-                android:textColor="#4697e1"
+                android:textColor="#3F50BF"
                 android:layout_marginTop="25dp"
                 android:layout_marginLeft="15dp"
                 android:id="@+id/tvgender"/>
@@ -55,7 +55,7 @@
                 android:layout_height="wrap_content"
                 android:text="Birthdate:- "
                 android:textSize="25dp"
-                android:textColor="#4697e1"
+                android:textColor="#3F50BF"
                 android:layout_marginTop="25dp"
                 android:layout_marginLeft="15dp"
                 android:id="@+id/tvdate"/>
@@ -64,7 +64,7 @@
                 android:layout_height="wrap_content"
                 android:text="E-mail:- "
                 android:textSize="25dp"
-                android:textColor="#4697e1"
+                android:textColor="#3F50BF"
                 android:layout_marginTop="25dp"
                 android:layout_marginLeft="15dp"
                 android:id="@+id/tvmail"/>
@@ -76,7 +76,7 @@
                 android:layout_marginTop="40dp"
                 android:layout_marginLeft="40dp"
                 android:layout_marginRight="40dp"
-                android:background="#FF6666"
+                android:background="#3F50BF"
                 android:id="@+id/btnsub2"/>
         </LinearLayout>
     </ScrollView>

@@ -4,15 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@drawable/custombg"
-    tools:context=".waitingpg">
+    android:orientation="vertical"
+    tools:context=".book">
 
-    <ImageView
-        android:layout_width="290dp"
-        android:layout_height="248dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="150dp"
-        android:fadeScrollbars="true"
-        android:src="@drawable/breathe" />
 </LinearLayout>

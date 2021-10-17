@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#fefefa"
+    android:background="@drawable/custombg"
     tools:context=".Signuppg">
 
     <ScrollView
@@ -25,7 +25,7 @@
                 android:textSize="30dp"
                 android:layout_marginTop="10dp"
                 android:gravity="center"
-                android:background="#4697e1"
+                android:background="#3F50BF"
                 android:textColor="#fefefa"/>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -68,7 +68,7 @@
                 android:text="Gender:-"
                 android:textSize="25dp"
                 android:layout_marginLeft="15dp"
-                android:textColor="#4697e1"/>
+                android:textColor="#0B0B0B"/>
 
 
             <LinearLayout
@@ -108,7 +108,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Birthdate:-"
-                    android:textColor="#4697e1"
+                    android:textColor="#090909"
                     android:textSize="25dp" />
                 <EditText
                     android:layout_width="match_parent"
@@ -149,10 +149,10 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="40dp"
                 android:layout_marginRight="40dp"
-                android:background="#ff6666"
+                android:background="#F5F5F6"
                 android:textColor="#fefefa"
                 android:id="@+id/btnsub1"
-                android:visibility="gone" />
+                />
 
         </LinearLayout>
     </ScrollView>

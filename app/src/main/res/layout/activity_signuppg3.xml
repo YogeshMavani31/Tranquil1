@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/custombg"
     tools:context=".Signuppg3">
 
     <TextView
@@ -13,7 +14,7 @@
         android:text="Login Credentials"
         android:textSize="30dp"
         android:gravity="center"
-        android:background="#4697e1"
+        android:background="#3F50BF"
         android:textColor="#fefefa"
         android:layout_marginTop="10dp"/>
     <LinearLayout
@@ -28,7 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="User ID:-"
-            android:textColor="#4697e1"
+            android:textColor="#3F50BF"
             android:textSize="25dp" />
         <EditText
             android:layout_width="match_parent"
@@ -50,7 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Password:-"
-            android:textColor="#4697e1"
+            android:textColor="#3F50BF"
             android:textSize="25dp" />
         <EditText
             android:layout_width="match_parent"
@@ -69,8 +70,8 @@
         android:layout_marginRight="40dp"
         android:layout_marginLeft="40dp"
         android:textColor="#fefefa"
-        android:background="#ff6666"
+        android:background="#3F50BF"
         android:id="@+id/btnsub3"
-        android:visibility="gone"/>
+        />
 
 </LinearLayout>
