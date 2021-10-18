@@ -23,7 +23,8 @@
         android:layout_marginTop="50dp"
         android:text="Yes"
         android:background="#a0e6ff"
-        android:textSize="20dp"
+        android:textSize="24dp"
+        android:textColor="@drawable/buttontextcolor"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:id="@+id/btnyes"/>
@@ -33,6 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="No"
+        android:textColor="@drawable/buttontextcolor"
         android:background="#a0e6ff"
         android:textSize="24dp"
         android:layout_marginLeft="30dp"

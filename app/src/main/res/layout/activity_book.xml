@@ -8,4 +8,59 @@
     android:orientation="vertical"
     tools:context=".book">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Which type of book would you like to read?"
+        android:gravity="center"
+        android:layout_marginTop="75dp"
+        android:textSize="40dp"
+        android:textColor="#3F50BF"/>
+
+    <Button
+        android:id="@+id/btnfiction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Fiction"
+        android:textColor="@drawable/buttontextcolor"
+        android:background="#a0e6ff"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <Button
+        android:id="@+id/btnnonfiction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Non-Fiction"
+        android:textColor="@drawable/buttontextcolor"
+        android:background="#a0e6ff"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <Button
+    android:id="@+id/btnnovel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:text="Novel"
+    android:textColor="@drawable/buttontextcolor"
+    android:textSize="20dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"/>
+
+    <Button
+        android:id="@+id/btncomic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Comic"
+        android:textColor="@drawable/buttontextcolor"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
 </LinearLayout>

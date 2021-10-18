@@ -18,7 +18,7 @@ public class optionpg extends AppCompatActivity {
         btnmusic = (Button)findViewById(R.id.btnmusic);
         btnvideo = (Button)findViewById(R.id.btnvideos);
         btnyoga = (Button)findViewById(R.id.btnyoga);
-        Intent i=getIntent();
+        Intent i = getIntent();
 
         btnbook.setOnClickListener(new View.OnClickListener() {
             @Override

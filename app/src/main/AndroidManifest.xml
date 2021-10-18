@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".comic"
+            android:exported="false" />
+        <activity
+            android:name=".novel"
+            android:exported="false" />
+        <activity
+            android:name=".nonfic"
+            android:exported="false" />
+        <activity
+            android:name=".fiction"
+            android:exported="false" />
+        <activity
             android:name=".yoga"
             android:exported="false" />
         <activity

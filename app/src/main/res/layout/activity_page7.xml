@@ -25,7 +25,8 @@
         android:layout_marginTop="50dp"
         android:text="Yes"
         android:background="#3F50BF"
-        android:textSize="20dp"
+        android:textSize="24dp"
+        android:textColor="@color/purple_500"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:id="@+id/btny"/>
@@ -37,6 +38,7 @@
         android:text="No"
         android:background="#3F50BF"
         android:textSize="24dp"
+        android:textColor="@color/purple_500"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:id="@+id/btnn"/>

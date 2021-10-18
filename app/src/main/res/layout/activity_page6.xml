@@ -24,6 +24,7 @@
         android:text="Volume of Work"
         android:background="#a0e6ff"
         android:textSize="20dp"
+        android:textColor="@color/purple_500"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:id="@+id/btnvol"/>
@@ -33,6 +34,7 @@
         android:layout_marginTop="20dp"
         android:text="Daily Routine"
         android:background="#3F50BF"
+        android:textColor="@color/purple_500"
         android:textSize="20dp"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
@@ -42,8 +44,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="Work Environment"
-        android:background="#3F50BF"
         android:textSize="20dp"
+        android:textColor="@drawable/buttontextcolor"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:id="@+id/btnwork"/>
@@ -52,8 +54,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="Health Issuse"
-        android:background="#3F50BF"
         android:textSize="20dp"
+        android:textColor="@drawable/buttontextcolor"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:id="@+id/btnhealth"/>

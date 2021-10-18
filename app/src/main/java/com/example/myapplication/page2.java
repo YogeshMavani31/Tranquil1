@@ -23,7 +23,6 @@ public class page2 extends AppCompatActivity {
         btnyes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 Intent i=new Intent(page2.this,page3.class);
                 startActivity(i);
 

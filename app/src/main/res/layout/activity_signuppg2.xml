@@ -73,6 +73,7 @@
                 android:layout_height="wrap_content"
                 android:text="Submit"
                 android:textSize="30dp"
+                android:textColor="@color/purple_500"
                 android:layout_marginTop="40dp"
                 android:layout_marginLeft="40dp"
                 android:layout_marginRight="40dp"
