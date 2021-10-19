@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="relax">relax</string>
+    <string name="upbeat">upbeat</string>
+    <string name="slow_jazz">slow jazz</string>
+    <string name="sleepyness">sleepyness</string>
+    <string name="lo_fi">lo-fi</string>
+    <string name="meditation_music">Meditation music</string>
+    <string name="chill_out_music">Chill-out music</string>
+    <string name="song_title">Song Title</string>
+    <string name="singer">Singer</string>
 </resources>

@@ -7,7 +7,18 @@
     android:orientation="vertical"
     android:background="@drawable/custombg"
     tools:context=".Signuppg">
-
+    <LinearLayout
+        android:paddingTop="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/fixnav">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:src="@drawable/tranquil"></ImageView>
+    </LinearLayout>
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -152,8 +163,8 @@
                 android:layout_marginTop="24dp"
                 android:layout_marginLeft="40dp"
                 android:layout_marginRight="40dp"
-                android:background="#F5F5F6"
                 android:textColor="@color/purple_500"
+                android:background="@drawable/buttontextcolor"
                 android:id="@+id/btnsub1"
                 />
 

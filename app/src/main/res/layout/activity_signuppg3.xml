@@ -7,7 +7,16 @@
     android:orientation="vertical"
     android:background="@drawable/custombg"
     tools:context=".Signuppg3">
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/fixnav">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:src="@drawable/tranquil"></ImageView>
+    </LinearLayout>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -69,7 +78,8 @@
         android:layout_marginTop="40dp"
         android:layout_marginRight="40dp"
         android:layout_marginLeft="40dp"
-        android:textColor="@drawable/buttontextcolor"
+        android:textColor="@color/purple_500"
+        android:background="@drawable/buttontextcolor"
         android:id="@+id/btnsub3"
         />
 

@@ -70,13 +70,14 @@
                 </LinearLayout>
                 <Button
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Login"
-                    android:textColor="@drawable/buttontextcolor"
+                    android:layout_height="match_parent"
                     android:textSize="30dp"
-                    android:layout_marginTop="20dp"
+                    android:text="LOGIN"
+                    android:textColor="@color/purple_500"
+                    android:layout_marginTop="40dp"
                     android:layout_marginLeft="40dp"
                     android:layout_marginRight="30dp"
+                    android:background="@drawable/buttontextcolor"
                     android:id="@+id/btnlogin"/>
                 <Button
                     android:layout_width="match_parent"
@@ -85,14 +86,11 @@
                     android:textSize="30dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="30dp"
+                    android:background="@drawable/buttontextcolor"
+                    android:textColor="@color/purple_500"
                     android:layout_marginLeft="40dp"
-                    android:textColor="@drawable/buttontextcolor"
-
                     android:id="@+id/btnsignup"/>
             </LinearLayout>
-
     </LinearLayout>
-
     </ScrollView>
-
 </LinearLayout>

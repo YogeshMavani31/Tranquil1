@@ -7,7 +7,16 @@
     android:background="@drawable/custombg"
     android:orientation="vertical"
     tools:context=".fiction">
-    <ScrollView
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/fixnav">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:src="@drawable/tranquil"></ImageView>
+    </LinearLayout><ScrollView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content">
         <LinearLayout
@@ -24,6 +33,7 @@
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="175dp"
+                    android:src="@drawable/tranquil"
                     android:layout_marginTop="20dp">
                 </ImageView>
                 <LinearLayout
@@ -60,6 +70,7 @@
                         android:layout_marginTop="10dp"
                         android:text="Download"
                         android:textColor="@color/purple_500"
+                        android:background="@drawable/buttontextcolor"
                         android:id="@+id/nonficbut1"></Button>
                 </LinearLayout>
             </LinearLayout>
@@ -71,6 +82,7 @@
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="175dp"
+                    android:src="@drawable/tranquil"
                     android:layout_marginTop="20dp"></ImageView>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -104,6 +116,7 @@
                         android:layout_marginTop="10dp"
                         android:text="Download"
                         android:textColor="@color/purple_500"
+                        android:background="@drawable/buttontextcolor"
                         android:id="@+id/nonficbut2"></Button>
                 </LinearLayout>
             </LinearLayout>
@@ -115,6 +128,7 @@
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="175dp"
+                    android:src="@drawable/tranquil"
                     android:layout_marginTop="20dp"></ImageView>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -148,6 +162,7 @@
                         android:layout_marginTop="10dp"
                         android:text="Download"
                         android:textColor="@color/purple_500"
+                        android:background="@drawable/buttontextcolor"
                         android:id="@+id/nonficbut3"></Button>
                 </LinearLayout>
             </LinearLayout>
@@ -158,6 +173,7 @@
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="175dp"
+                    android:src="@drawable/tranquil"
                     android:layout_marginTop="20dp"></ImageView>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -191,6 +207,7 @@
                         android:layout_marginTop="10dp"
                         android:text="Download"
                         android:textColor="@color/purple_500"
+                        android:background="@drawable/buttontextcolor"
                         android:id="@+id/nonficbut4"></Button>
                 </LinearLayout>
             </LinearLayout>

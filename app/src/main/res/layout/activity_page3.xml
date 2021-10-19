@@ -7,7 +7,16 @@
     android:orientation="vertical"
     android:background="@drawable/custombg"
     tools:context=".page3">
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/fixnav">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:src="@drawable/tranquil"></ImageView>
+    </LinearLayout>
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -20,7 +29,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="50dp"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
         android:gravity="center"
@@ -75,7 +84,9 @@
                 android:layout_height="50dp"
                 android:layout_marginLeft="10dp"
                 android:textColor="@color/purple_500"
+                android:background="@drawable/buttontextcolor"
                 android:layout_marginTop="20dp"
+                android:layout_gravity="center"
                 android:text="Next"
                 android:textSize="20dp" />
 

@@ -7,7 +7,16 @@
     android:orientation="vertical"
     android:background="@drawable/custombg"
     tools:context=".page4">
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/fixnav">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:src="@drawable/tranquil"></ImageView>
+    </LinearLayout>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -22,17 +31,19 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:text="Mild"
-        android:textColor="@drawable/buttontextcolor"
-        android:textSize="20dp"
+        android:textColor="@color/purple_500"
+        android:background="@drawable/buttontextcolor"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
+        android:textSize="20dp"
         android:id="@+id/btnmild"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="Moderate"
-        android:textColor="@drawable/buttontextcolor"
+        android:textColor="@color/purple_500"
+        android:background="@drawable/buttontextcolor"
         android:textSize="20dp"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
@@ -42,7 +53,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="Extreme"
-        android:textColor="@drawable/buttontextcolor"
+        android:textColor="@color/purple_500"
+        android:background="@drawable/buttontextcolor"
         android:textSize="20dp"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"

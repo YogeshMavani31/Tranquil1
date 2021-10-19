@@ -7,7 +7,16 @@
     android:background="@drawable/custombg"
     android:orientation="vertical"
     tools:context=".book">
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/fixnav">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:src="@drawable/tranquil"></ImageView>
+    </LinearLayout>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -23,8 +32,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:text="Fiction"
-        android:textColor="@drawable/buttontextcolor"
-        android:background="#a0e6ff"
+        android:textColor="@color/purple_500"
+        android:background="@drawable/buttontextcolor"
         android:textSize="20dp"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"/>
@@ -35,8 +44,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:text="Non-Fiction"
-        android:textColor="@drawable/buttontextcolor"
-        android:background="#a0e6ff"
+        android:textColor="@color/purple_500"
+        android:background="@drawable/buttontextcolor"
         android:textSize="20dp"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"/>
@@ -47,7 +56,8 @@
     android:layout_height="wrap_content"
     android:layout_marginTop="50dp"
     android:text="Novel"
-    android:textColor="@drawable/buttontextcolor"
+        android:textColor="@color/purple_500"
+        android:background="@drawable/buttontextcolor"
     android:textSize="20dp"
     android:layout_marginLeft="30dp"
     android:layout_marginRight="30dp"/>
@@ -58,7 +68,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:text="Comic"
-        android:textColor="@drawable/buttontextcolor"
+        android:textColor="@color/purple_500"
+        android:background="@drawable/buttontextcolor"
         android:textSize="20dp"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"/>
