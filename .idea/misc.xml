@@ -41,10 +41,11 @@
         <entry key="..\:/Users/Vijay/AndroidStudioProjects/Tranquil/app/src/main/res/layout/activity_signuppg2.xml" value="0.1331521739130435" />
         <entry key="..\:/Users/Vijay/AndroidStudioProjects/Tranquil/app/src/main/res/layout/activity_signuppg3.xml" value="0.1331521739130435" />
         <entry key="..\:/Users/Vijay/AndroidStudioProjects/Tranquil/app/src/main/res/layout/activity_waitingpg.xml" value="0.12047101449275362" />
+        <entry key="..\:/Users/dwija/AndroidStudioProjects/Tranquil/app/src/main/res/layout/activity_yoga.xml" value="0.1" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
