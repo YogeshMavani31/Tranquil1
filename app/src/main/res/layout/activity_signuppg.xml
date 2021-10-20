@@ -51,6 +51,7 @@
                     android:textSize="25dp"
                     android:textColor="@color/purple_500"
                     android:id="@+id/edtfname"
+                    android:textColorHint="#858181"
                     android:layout_weight="1"/>
             </LinearLayout>
 
@@ -66,6 +67,7 @@
                     android:layout_height="wrap_content"
                     android:hint="Enter last name"
                     android:textSize="25dp"
+                    android:textColorHint="#858181"
                     android:id="@+id/edtlname"
                     android:textColor="@color/purple_500"
                     android:layout_weight="1"/>
@@ -125,9 +127,10 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="dd/mm/yy"
+                    android:hint="mm/dd/yy"
                     android:textColor="@color/purple_500"
                     android:textSize="25dp"
+                    android:textColorHint="#858181"
                     android:id="@+id/edtdate"
                     android:layout_weight="1"/>
             </LinearLayout>
@@ -151,6 +154,7 @@
                     android:textSize="25dp"
                     android:autoSizeTextType="uniform"
                     android:id="@+id/edtmail"
+                    android:textColorHint="#858181"
                     android:layout_weight="1"/>
             </LinearLayout>
 

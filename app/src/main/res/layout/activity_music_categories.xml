@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sleepyness"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/custombg"
@@ -12,6 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:background="@drawable/fixnav">
+
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="80dp"
@@ -27,31 +29,33 @@
         android:paddingTop="30dp">
 
         <Button
+            android:id="@+id/instrumental"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_margin="10dp"
-            android:paddingVertical="30dp"
-            android:textSize="20dp"
-            android:textColor="#ffffff"
-            android:text="Instrumental"
+            android:layout_weight="1"
             android:backgroundTint="@color/app_button_color"
+            android:paddingVertical="30dp"
+            android:text="Instrumental"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
             app:cornerRadius="20dip" />
 
         <Button
+            android:id="@+id/relax"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttontextcolor"
+            android:backgroundTint="@color/white"
             android:paddingVertical="30dp"
             android:text="@string/relax"
-            android:textSize="20dp"
-            android:backgroundTint="@color/white"
             android:textColor="@color/purple_500"
-            android:background="@drawable/buttontextcolor"
+            android:textSize="20dp"
+            app:cornerRadius="20dip"
             app:strokeColor="@color/app_button_color"
-            app:strokeWidth="4dp"
-            app:cornerRadius="20dip"/>
+            app:strokeWidth="4dp" />
 
     </LinearLayout>
 
@@ -63,30 +67,32 @@
 
 
         <Button
+            android:id="@+id/upbeat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:textSize="20dp"
             android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttontextcolor"
+            android:backgroundTint="@color/white"
             android:paddingVertical="30dp"
             android:text="@string/upbeat"
-            android:backgroundTint="@color/white"
             android:textColor="@color/purple_500"
-            android:background="@drawable/buttontextcolor"
+            android:textSize="20dp"
+            app:cornerRadius="20dip"
             app:strokeColor="@color/app_button_color"
-            app:strokeWidth="4dp"
-            app:cornerRadius="20dip"/>
+            app:strokeWidth="4dp" />
 
         <Button
+            android:id="@+id/slow_jazz"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_weight="1"
-            android:paddingVertical="30dp"
-            android:textSize="20dp"
-            android:textColor="@color/white"
-            android:text="@string/slow_jazz"
             android:backgroundTint="@color/app_button_color"
+            android:paddingVertical="30dp"
+            android:text="@string/slow_jazz"
+            android:textColor="@color/white"
+            android:textSize="20dp"
             app:cornerRadius="20dip" />
 
     </LinearLayout>
@@ -96,32 +102,34 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:paddingTop="0dp">
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_margin="10dp"
-            android:textSize="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/app_button_color"
             android:paddingVertical="30dp"
             android:text="@string/sleepyness"
-            android:backgroundTint="@color/app_button_color"
             android:textColor="@color/white"
-            app:cornerRadius="20dip"/>
+            android:textSize="20dp"
+            app:cornerRadius="20dip" />
 
         <Button
+            android:id="@+id/lo_fi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttontextcolor"
+            android:backgroundTint="@color/white"
             android:paddingVertical="30dp"
             android:text="@string/lo_fi"
-            android:textSize="20dp"
-            android:backgroundTint="@color/white"
             android:textColor="@color/purple_500"
-            android:background="@drawable/buttontextcolor"
+            android:textSize="20dp"
+            app:cornerRadius="20dip"
             app:strokeColor="@color/app_button_color"
-            app:strokeWidth="4dp"
-            app:cornerRadius="20dip"/>
+            app:strokeWidth="4dp" />
 
     </LinearLayout>
 
@@ -133,17 +141,18 @@
 
 
         <Button
+            android:id="@+id/meditation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttontextcolor"
+            android:backgroundTint="@color/app_button_color"
             android:paddingVertical="30dp"
-            android:textSize="20dp"
             android:text="@string/meditation_music"
             android:textColor="@color/purple_500"
-            android:background="@drawable/buttontextcolor"
-            android:backgroundTint="@color/app_button_color"
-            app:cornerRadius="20dip"/>
+            android:textSize="20dp"
+            app:cornerRadius="20dip" />
 
     </LinearLayout>
 
@@ -155,16 +164,17 @@
 
 
         <Button
+            android:id="@+id/chill_out"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_margin="10dp"
-            android:paddingVertical="30dp"
-            android:textSize="20dp"
-            android:text="@string/chill_out_music"
+            android:layout_weight="1"
             android:backgroundTint="@color/app_button_color"
+            android:paddingVertical="30dp"
+            android:text="@string/chill_out_music"
             android:textColor="@color/white"
-            app:cornerRadius="20dip"/>
+            android:textSize="20dp"
+            app:cornerRadius="20dip" />
 
     </LinearLayout>
 

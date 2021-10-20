@@ -45,6 +45,7 @@
             android:layout_height="wrap_content"
             android:hint="Enter id"
             android:textSize="25dp"
+            android:textColorHint="#858181"
             android:id="@+id/edtuid"
             android:layout_weight="1"/>
     </LinearLayout>
@@ -67,6 +68,7 @@
             android:layout_height="wrap_content"
             android:hint="Enter Password"
             android:textSize="25dp"
+            android:textColorHint="#858181"
             android:id="@+id/edtpass"
             android:layout_weight="1"/>
     </LinearLayout>

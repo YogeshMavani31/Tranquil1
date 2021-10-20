@@ -45,6 +45,7 @@
                         android:layout_height="wrap_content"
                         android:hint="User Name/ Email"
                         android:id="@+id/edtid"
+                        android:textColorHint="#858181"
                         android:textColor="@color/purple_500"
                         android:textSize="20dp"/>
 
@@ -64,6 +65,7 @@
                         android:layout_height="wrap_content"
                         android:hint="Password"
                         android:textSize="20dp"
+                        android:textColorHint="#858181"
                         android:textColor="@color/purple_500"
                         android:inputType="textPassword"
                         android:id="@+id/edtpass"/>
