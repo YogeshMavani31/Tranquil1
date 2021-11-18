@@ -17,7 +17,9 @@
         android:textAllCaps="true"
         android:textIsSelectable="false"
         android:textStyle="bold|italic" />
-
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
     <pl.droidsonroids.gif.GifImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -41,6 +43,6 @@
         android:layout_height="match_parent"
         android:layout_weight="1.0"
         android:src="@drawable/b4" />
-
+</ScrollView>
 
 </LinearLayout>
