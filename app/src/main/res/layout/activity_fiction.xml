@@ -15,6 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:layout_gravity="center"
+            android:id="@+id/Ficback"
             android:src="@drawable/tranquil"></ImageView>
     </LinearLayout>
     <ScrollView
@@ -34,7 +35,7 @@
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="175dp"
-                    android:src="@drawable/tranquil"
+                    android:src="@drawable/fic1"
                     android:layout_marginTop="20dp">
                 </ImageView>
                 <LinearLayout
@@ -47,7 +48,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:layout_marginLeft="15dp"
-                    android:text="Name 1"
+                    android:text="Wings of Fire"
                     android:textColor="@color/purple_500"
                     android:textSize="20dp">
                 </TextView>
@@ -58,7 +59,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:layout_marginLeft="15dp"
-                    android:text="Author 1"
+                    android:text="Dr. APJ Abdul Kalam"
                     android:textColor="@color/purple_500"
                     android:textSize="20dp">
                 </TextView>
@@ -83,7 +84,7 @@
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="175dp"
-                    android:src="@drawable/tranquil"
+                    android:src="@drawable/fic2"
                     android:layout_marginTop="20dp"></ImageView>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -95,7 +96,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
                         android:layout_marginLeft="15dp"
-                        android:text="Name 2"
+                        android:text="Rich Dad Poor Dad"
                         android:textColor="@color/purple_500"
                         android:textSize="20dp"></TextView>
 
@@ -105,7 +106,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
                         android:layout_marginLeft="15dp"
-                        android:text="Author 2"
+                        android:text="Robert T. Kiyosaki"
                         android:textColor="@color/purple_500"
                         android:textSize="20dp"></TextView>
 
@@ -129,7 +130,7 @@
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="175dp"
-                    android:src="@drawable/tranquil"
+                    android:src="@drawable/fic3"
                     android:layout_marginTop="20dp"></ImageView>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -141,7 +142,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
                         android:layout_marginLeft="15dp"
-                        android:text="Name 3"
+                        android:text="Zero to One"
                         android:textColor="@color/purple_500"
                         android:textSize="20dp"></TextView>
 
@@ -151,7 +152,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
                         android:layout_marginLeft="15dp"
-                        android:text="Author 3"
+                        android:text="Peter Thiel with Blake Masters"
                         android:textColor="@color/purple_500"
                         android:textSize="20dp"></TextView>
 
@@ -174,7 +175,7 @@
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="175dp"
-                    android:src="@drawable/tranquil"
+                    android:src="@drawable/fic4"
                     android:layout_marginTop="20dp"></ImageView>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -186,7 +187,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
                         android:layout_marginLeft="15dp"
-                        android:text="Name 4"
+                        android:text="The Intelligent Investor"
                         android:textColor="@color/purple_500"
                         android:textSize="20dp"></TextView>
 
@@ -196,7 +197,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
                         android:layout_marginLeft="15dp"
-                        android:text="Author 4"
+                        android:text="Benjamin Graham"
                         android:textColor="@color/purple_500"
                         android:textSize="20dp"></TextView>
 

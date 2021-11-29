@@ -15,6 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:layout_gravity="center"
+            android:id="@+id/comicback"
             android:src="@drawable/tranquil"></ImageView>
     </LinearLayout>
     <ScrollView
@@ -36,7 +37,7 @@
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="175dp"
-                    android:src="@drawable/tranquil"
+                    android:src="@drawable/comic1"
                     android:layout_marginTop="20dp">
                 </ImageView>
                 <LinearLayout
@@ -49,7 +50,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
                         android:layout_marginLeft="15dp"
-                        android:text="Name 1"
+                        android:text="The 1955 Romance Comics Trial "
                         android:textColor="@color/purple_500"
                         android:textSize="20dp">
                     </TextView>
@@ -60,7 +61,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
                         android:layout_marginLeft="15dp"
-                        android:text="Author 1"
+                        android:text="Adelaide comics and books"
                         android:textColor="@color/purple_500"
                         android:textSize="20dp">
                     </TextView>
@@ -85,7 +86,7 @@
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="175dp"
-                    android:src="@drawable/tranquil"
+                    android:src="@drawable/comic2"
                     android:layout_marginTop="20dp"></ImageView>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -97,7 +98,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
                         android:layout_marginLeft="15dp"
-                        android:text="Name 2"
+                        android:text="Digitally Drawing Comics"
                         android:textColor="@color/purple_500"
                         android:textSize="20dp"></TextView>
 
@@ -107,7 +108,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
                         android:layout_marginLeft="15dp"
-                        android:text="Author 2"
+                        android:text="Freddie Williams"
                         android:textColor="@color/purple_500"
                         android:textSize="20dp"></TextView>
 
@@ -131,7 +132,7 @@
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="175dp"
-                    android:src="@drawable/tranquil"
+                    android:src="@drawable/comic3"
                     android:layout_marginTop="20dp"></ImageView>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -143,7 +144,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
                         android:layout_marginLeft="15dp"
-                        android:text="Name 3"
+                        android:text="DC Marvel Comics"
                         android:textColor="@color/purple_500"
                         android:textSize="20dp"></TextView>
 
@@ -153,7 +154,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
                         android:layout_marginLeft="15dp"
-                        android:text="Author 3"
+                        android:text="DC"
                         android:textColor="@color/purple_500"
                         android:textSize="20dp"></TextView>
 
@@ -169,52 +170,6 @@
                         android:id="@+id/combut3"></Button>
                 </LinearLayout>
             </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-                <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="175dp"
-                    android:src="@drawable/tranquil"
-                    android:layout_marginTop="20dp"></ImageView>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-                    <TextView
-                        android:id="@+id/com4"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="20dp"
-                        android:layout_marginLeft="15dp"
-                        android:text="Name 4"
-                        android:textColor="@color/purple_500"
-                        android:textSize="20dp"></TextView>
-
-                    <TextView
-                        android:id="@+id/comauthor4"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="20dp"
-                        android:layout_marginLeft="15dp"
-                        android:text="Author 4"
-                        android:textColor="@color/purple_500"
-                        android:textSize="20dp"></TextView>
-
-                    <Button
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
-                        android:layout_marginTop="10dp"
-                        android:text="Download"
-                        android:textColor="@color/purple_500"
-                        android:background="@drawable/buttontextcolor"
-                        android:id="@+id/combut4"></Button>
-                </LinearLayout>
-            </LinearLayout>
-
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

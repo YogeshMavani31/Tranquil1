@@ -52,19 +52,6 @@
         />
 
     <Button
-        android:id="@+id/btnvideos"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:text="Videos"
-        android:textColor="@color/purple_500"
-        android:background="@drawable/buttontextcolor"
-        android:textSize="20dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        />
-
-    <Button
         android:id="@+id/btnyoga"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -15,6 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:layout_gravity="center"
+            android:id="@+id/nonficback"
             android:src="@drawable/tranquil"></ImageView>
     </LinearLayout><ScrollView
         android:layout_width="fill_parent"
@@ -33,7 +34,7 @@
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="175dp"
-                    android:src="@drawable/tranquil"
+                    android:src="@drawable/nonfic1"
                     android:layout_marginTop="20dp">
                 </ImageView>
                 <LinearLayout
@@ -46,7 +47,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
                         android:layout_marginLeft="15dp"
-                        android:text="Name 1"
+                        android:text="The Science Fiction Hall of Fame"
                         android:textColor="@color/purple_500"
                         android:textSize="20dp">
                     </TextView>
@@ -57,7 +58,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
                         android:layout_marginLeft="15dp"
-                        android:text="Author 1"
+                        android:text="Ben Bova"
                         android:textColor="@color/purple_500"
                         android:textSize="20dp">
                     </TextView>
@@ -82,7 +83,7 @@
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="175dp"
-                    android:src="@drawable/tranquil"
+                    android:src="@drawable/nonfic2"
                     android:layout_marginTop="20dp"></ImageView>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -94,7 +95,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
                         android:layout_marginLeft="15dp"
-                        android:text="Name 2"
+                        android:text="Writing Creative Non-Fiction"
                         android:textColor="@color/purple_500"
                         android:textSize="20dp"></TextView>
 
@@ -104,7 +105,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
                         android:layout_marginLeft="15dp"
-                        android:text="Author 2"
+                        android:text="Professor Mazzeo"
                         android:textColor="@color/purple_500"
                         android:textSize="20dp"></TextView>
 
@@ -128,7 +129,7 @@
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="175dp"
-                    android:src="@drawable/tranquil"
+                    android:src="@drawable/nonfic3"
                     android:layout_marginTop="20dp"></ImageView>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -140,7 +141,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
                         android:layout_marginLeft="15dp"
-                        android:text="Name 3"
+                        android:text="Spoken English: Flourish Your Language"
                         android:textColor="@color/purple_500"
                         android:textSize="20dp"></TextView>
 
@@ -150,7 +151,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
                         android:layout_marginLeft="15dp"
-                        android:text="Author 3"
+                        android:text="Robert Carmen"
                         android:textColor="@color/purple_500"
                         android:textSize="20dp"></TextView>
 
@@ -173,7 +174,7 @@
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="175dp"
-                    android:src="@drawable/tranquil"
+                    android:src="@drawable/nonfic4"
                     android:layout_marginTop="20dp"></ImageView>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -185,7 +186,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
                         android:layout_marginLeft="15dp"
-                        android:text="Name 4"
+                        android:text="Fun With A Pencil by Andrew Loomis "
                         android:textColor="@color/purple_500"
                         android:textSize="20dp"></TextView>
 
@@ -195,7 +196,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
                         android:layout_marginLeft="15dp"
-                        android:text="Author 4"
+                        android:text="Alex Hays"
                         android:textColor="@color/purple_500"
                         android:textSize="20dp"></TextView>
 
